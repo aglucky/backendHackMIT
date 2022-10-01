@@ -22,4 +22,5 @@ def findBestMatch(userQuery, youtubeID):
   return {'ans': ans, 'ansTime': ansTime}
 
 if __name__ == '__main__':
-  app.run()
+    # Threaded option to enable multiple instances for multiple user access support
+    app.run(threaded=True, port=5000)
