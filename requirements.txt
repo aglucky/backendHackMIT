@@ -1,0 +1,3 @@
+spacy
+flask
+youtube_transcript_api
